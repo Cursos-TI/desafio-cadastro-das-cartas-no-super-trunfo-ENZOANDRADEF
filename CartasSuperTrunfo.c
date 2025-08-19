@@ -106,15 +106,55 @@ int main() {
     printf("O super poder da carta 2 é: %.2f\n", superpoder2);
 
     //resultados do embate
-        
-        printf("Resultados carta 1:\n");
-        printf("População: %d\n", populacao1 > populacao2);
-        printf("Área: %d\n", area1 > area2);
-        printf("PIB: %d\n", pib1 > pib2);
-        printf("Quantidade de ponto turísticos: %d\n", pontoturistico1 > pontoturistico2);
-        printf("Densidade populacional: %d\n", densidadepopulacional1 < densidadepopulacional2);
-        printf("Pib per capita: %d\n", pibpercapita1 > pibpercapita2);
-        printf("Super poder: %d\n", superpoder1 > superpoder2);
+  
+    printf("Comparação das cartas (Atributo: População)\n");
+    if(populacao1 > populacao2){
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    printf("Comparação das cartas (Atributo: Área)\n");
+    if(area1 > area2){
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    printf("Comparação das cartas (Atributo: PIB)\n");
+    if(pib1 > pib2){
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    printf("Comparação das cartas (Atributo: Ponto turístico)\n");
+    if(pontoturistico1 > pontoturistico2){
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    printf("Comparação das cartas (Atributo: DEnsidade populacional)\n");
+    if(densidadepopulacional1 < densidadepopulacional2){
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    printf("Comparação das cartas (Atributo: PIB per capita)\n");
+    if(pibpercapita1 > pibpercapita2){
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    printf("Comparação das cartas (Atributo: Super poder)\n");
+    if(superpoder1 > superpoder2){
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
 
 
     return 0;
